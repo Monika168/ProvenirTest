@@ -79,21 +79,3 @@ For contributions, please create a fork and submit a pull request.
 ### License
 [My License Here]
 Replace placeholders like https://github.com/Monika168/ProvenirTest.git and ProvenirTest with the actual repository information.
-
-
-
-
-## Outputs
-
-After executing the script, you'll find:
-- A combined dataset (`combined_data.csv`)
-- A summary of total spending by age group (`age_group_spending.csv`)
-- A bar chart visualization (`total_spending_by_age_group.png`)
-
-## Approach
-
-- Loaded customer and purchase datasets.
-- Transformed data to add a `full_name` column and categorized customers into age groups.
-- Merged datasets on `customer_id`.
-- Computed total spending by age group.
-- Visualized the results with a bar chart.
