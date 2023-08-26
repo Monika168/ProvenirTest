@@ -1,0 +1,99 @@
+# Age Group Spending Analysis
+
+## Project Overview
+
+This Python project performs data processing and visualization tasks on customer and purchase datasets. The primary goal is to understand the spending habits of different age groups. The project incorporates multiprocessing for efficient data transformation and generates relevant outputs in both CSV and PNG formats.
+
+---
+
+## Table of Contents
+
+1. [Dependencies](#dependencies)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Outputs](#outputs)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+---
+
+## Dependencies
+
+- Python 3.x
+- Pandas
+- Matplotlib
+- Multiprocessing
+
+---
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Monika168/ProvenirTest.git
+cd ProvenirTest
+
+---
+### Set Up a Virtual Environment
+python -m venv myenv
+source myenv/bin/activate  # macOS and Linux
+
+---
+### Install Required Packages
+pip install pandas matplotlib
+
+---
+### Usage
+### To execute the project, run the following command:
+python Interview_Test.py
+
+---
+### Running Tests
+python Interview_Unit_Tests.py
+
+---
+### Features
+1. Data Loading: Uses Pandas for convenient data import from CSV files.
+2. Data Transformation:
+3. Combines first_name and last_name into a new column, full_name.
+4. Categorizes customers into age groups (Young, Middle-aged, Senior).
+5. Utilizes Python's multiprocessing for efficient data transformation.
+6. Join Operation: Merges customer and purchase data on customer_id using an outer join.
+7. Analysis: Calculates total spending for each age group.
+8. Visualization: Generates a bar chart that visualizes total spending by age group.
+
+---
+### Outputs
+### Upon successful execution, the script will generate the following outputs:
+1. combined_data.csv: A CSV file containing the combined customer and purchase data.
+2. age_group_spending.csv: A CSV file that summarizes total spending by age group.
+3. total_spending_by_age_group.png: A PNG file that visualizes the total spending by age group.
+
+---
+### Contributing
+For contributions, please create a fork and submit a pull request.
+
+---
+### License
+[My License Here]
+Replace placeholders like https://github.com/Monika168/ProvenirTest.git and ProvenirTest with the actual repository information.
+
+
+
+
+## Outputs
+
+After executing the script, you'll find:
+- A combined dataset (`combined_data.csv`)
+- A summary of total spending by age group (`age_group_spending.csv`)
+- A bar chart visualization (`total_spending_by_age_group.png`)
+
+## Approach
+
+- Loaded customer and purchase datasets.
+- Transformed data to add a `full_name` column and categorized customers into age groups.
+- Merged datasets on `customer_id`.
+- Computed total spending by age group.
+- Visualized the results with a bar chart.
